@@ -1,0 +1,328 @@
+*{
+  margin:0%;
+  padding:0%
+}
+html
+{
+  scroll-behavior: smooth;
+}
+.navbar
+{
+  display:flex;
+  position: sticky;
+  top:0%;
+  cursor: pointer;
+   
+}
+.navi
+{
+  position: sticky;
+  top:0%;
+  cursor: pointer;
+}
+.items
+{ 
+  
+  width:70%;
+  display:flex;
+  list-style: none;
+  text-align: center;
+  
+}
+.items li
+{
+  margin: auto;
+  padding: 4px 20px;
+
+}
+.items li a
+{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+  color:white;
+  text-shadow: 2px;
+}
+
+.logo
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.logo img
+{
+  border: 2px solid black;
+  border-radius: 25px;
+  display: block;
+  width: 60px;
+  height: 45px;
+}
+.navright
+{
+
+  width:30%;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+
+  
+
+}
+.navright button
+{
+  background: none;
+  color:white;
+}
+
+.line
+{
+
+  width:45px;
+  height:6px;
+  background-color:silver;
+  margin:3.5px 0px;
+}
+.burgers
+{
+  display:none;
+  cursor: pointer;
+  position: absolute;
+  top:10%;
+  right:45px;
+}
+
+.sec
+{
+  
+    height: 100vh;
+}
+.mid2
+{
+  height: 100%;
+  display:flex;
+  max-width:60%;
+  margin:auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.fhc
+{
+  text-align: center;
+  color:white;
+  opacity: 0.81;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding:4px;
+  width:69%;
+
+}
+.fhc h2
+{
+  margin-bottom: 15px;
+}
+.shc
+{
+  justify-content: center;
+  text-align: center;
+  display:flex;
+  
+}
+.shc img
+{
+  display: block;
+  width:200px;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.bg
+{
+  background: rgba(0, 0, 0,0.8)url("bg3.jpg")no-repeat center center;
+  background-size: cover;
+  background-blend-mode:overlay;
+  opacity: 1;
+}
+.down
+{
+  background-color: antiquewhite;
+  background-blend-mode: darken;
+  margin:0px auto;
+  height: fit-content;
+}
+.box
+{
+  display: flex;
+  max-width: 80%;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  
+
+
+}
+.dfh
+{
+  width:60%;
+  font-family: 'Alkalami', serif;
+}
+.dsh
+{
+  display: flex;
+  width:28%;
+  justify-content: center;
+  align-items: center;
+}
+.dsh img
+{
+
+  width:89%;
+  display:block;
+  border-radius: 168px;
+
+}
+.down-2
+{
+  background-color: rgb(243, 239, 227);
+  background-blend-mode: darken;
+  margin:0px auto;
+}
+.box-2
+{
+  display: flex;
+  max-width: 80%;
+  margin: auto;
+  justify-content:space-evenly;
+  align-items: center;
+  flex-wrap: wraps;
+
+  
+}
+.dfh-2
+{
+  
+  width:60%;
+  font-family: 'Alkalami', serif;
+}
+.dsh-2
+{
+  display: flex;
+  width:28%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.dsh-2 img
+{
+  width:100%;
+  display:block;
+  border-radius: 168px;
+
+}
+.info
+{
+  
+  display:flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto; 
+  align-items: center;
+  height: 280px;
+  
+  
+
+}
+.inputs
+{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 300px;
+  
+}
+.texts
+{
+  display: block;
+  margin: 10px auto;
+}
+.down-3
+{
+  background-color: antiquewhite;
+  height: 300px;
+}
+
+
+@media only screen and (max-width:762px)
+{
+  .navbar
+  {
+    display:flex;
+    flex-direction: column;
+    height: 469px;
+    transition: all 0.5s ease-in-out;
+  
+    
+  }
+  .items
+  {
+    
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .navright
+  {
+    margin: auto;
+  }
+  .burgers
+  {
+      display: block;
+  }
+  .h-nav
+  {
+    height: 69px;
+  }
+  .v-nav
+  {
+    opacity: 0;
+  }
+  .box
+  {
+    display:flex;
+    flex-direction: column-reverse;
+    margin:4px auto;
+  
+    
+  }
+  .box-2
+  {
+    display:flex;
+    flex-direction: column-reverse;
+    margin:4px auto;
+  
+  
+  }
+  .shc
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .mid2
+  {
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 90%;
+    
+  }
+  .shc img
+{
+  display: block;
+  width:200px;
+
+}
+}
+
